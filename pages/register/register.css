@@ -1,9 +1,4 @@
-.register-container {
-    height: 90vh;
-    background: linear-gradient(0deg, rgb(168, 252, 168) 0%, rgba(255,255,255,1) 100%);
-}
-
-.register-container h1 {
+.container h1 {
     color: var(--secondary-color);
     text-align: center;
     font-size: 48px;
@@ -14,13 +9,13 @@
     margin-bottom: 40px;
 }
 
-.register-container .selection {
+.container .selection-register {
     display: flex;
     justify-content: space-evenly;
     margin: 0 40px;
 }
 
-.register-container .selection div {
+.container .selection-register div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,24 +30,46 @@
     cursor: pointer;
 }
 
-.register-container .selection div:hover {
+.container .selection-register div:hover {
     background: rgba(32, 161, 114, 0.5);
     border: 2px solid rgba(30, 79, 57, .5);
 }
 
-.register-container .selection div img {
+.container .selection-register div img {
     width: 55%;
     margin-bottom: 20px;
 }
 
-.register-container .selection div p {
+.container .selection-register div p {
     color: var(--primary-color);
     font-size: 32px;
     text-transform: uppercase;
 }
 
-.register-container .selection div:hover p {
+.container .selection-register div:hover p {
     color: var(--secondary-color);
 }
 
 /* PESSOA FÍSICA */
+.common-people {
+    background: linear-gradient(0deg, rgb(168, 252, 168) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    height: 90%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.common-people h1 {
+    color: var(--secondary-color);
+    font-size: 48px;
+    font-weight: 500;
+
+    margin: 40px;
+}
