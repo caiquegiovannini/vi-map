@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Vi-Map</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="public/assets/logo.png" alt="Vi-Map"/>
+
+            <nav>
+                <a href="/">Mapa ao vivo</a>
+                <a href="#">Informe um caso</a>
+                <a href="pages/register">Cadastre-se</a>
+                <a href="#">Log-in</a>
+            </nav>
+        </header>
+        
+        <form class="location-form">
+            <input type="text" placeholder="Buscar localização"/>
+            <button type="submit">
+                <img src="public/assets/icon_marker.png" alt="Ícone de Busca"/>
+            </button>
+        </form>
+
+        <div class="map-container">
+
+        </div>
+
+        <script src="public/script.js"></script>
+    </body>
+</html>

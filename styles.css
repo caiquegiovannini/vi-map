@@ -1,0 +1,38 @@
+/* FORM */
+.location-form {
+    background-color: rgba(255, 255, 255, .95);
+
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    min-width: 200px;
+    height: 100px;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+
+    opacity: 0.7;
+    transition: 200ms;
+}
+
+.location-form:hover {
+    opacity: 1;
+}
+
+.location-form input {
+    font-size: 14px;
+
+    border: solid 1px #111;
+    border-radius: 4px;
+
+    width: 220px;
+
+    margin-right: 10px;
+    padding: 6px 16px;
+}
+
+.location-form button img {
+    width: 25px;
+}
