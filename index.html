@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="styles.css">
 
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
         <title>Vi-Map</title>
     </head>
 
@@ -23,24 +26,14 @@
             </nav>
         </header>
         
+        <div id="map"></div>
+
         <form class="location-form">
             <input type="text" placeholder="Buscar localização"/>
             <button type="submit">
                 <img src="public/assets/icon_marker.png" alt="Ícone de Busca"/>
             </button>
         </form>
-
-        <div class="map-container">
-            
-            
-                <img id="m1" src="public/assets/icon_marker.png" alt="marcador">
-            
-                <img id="m2" src="public/assets/icon_marker.png" alt="marcador">
-            
-                <img id="m3" src="public/assets/icon_marker.png" alt="marcador">
-
-            <img class="map" src="public/assets/map.png" alt="Mapa">
-        </div>
 
         <script src="public/script.js"></script>
     </body>

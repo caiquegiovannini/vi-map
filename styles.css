@@ -1,29 +1,26 @@
-.map-container .map {
-    width: 100%;
+#map {
+    height: 100%;
 }
 
-.map-container #m1 {
-    width: 80px;
-    position: absolute;
-    top: 0;
-    margin-top: 350px;
-    margin-left: 200px;
+.marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(40, 202, 143, 0.5);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
-.map-container #m2 {
-    width: 80px;
-    position: absolute;
-    top: 0;
-    margin-top: 180px;
-    margin-left: 500px;
+.info-box {
+    background-color: #fff;
+    color: #111;
+    display: none;
+    padding: 4px 8px;
 }
 
-.map-container #m3 {
-    width: 80px;
-    position: absolute;
-    top: 0;
-    margin-top: 425px;
-    margin-left: 830px;
+.info-box-visible {
+    display: block;
 }
 
 /* FORM */
